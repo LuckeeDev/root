@@ -3,7 +3,7 @@
 #include "TH1F.h"
 #include "TRandom.h"
 
-void hit_or_miss() {
+void macro() {
   constexpr Int_t nGen = 1E7;
 
   TH1F *hGen = new TH1F{"hGen", "Histogram 1", 1000, 0., 5.};

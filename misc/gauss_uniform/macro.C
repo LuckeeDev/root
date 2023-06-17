@@ -13,7 +13,7 @@ Double_t myFunction(Double_t* x, Double_t* par) {
   return val;
 }
 
-void macro2() {
+void macro() {
   constexpr Int_t nGen1 = 1E6;
   constexpr Int_t nGen2 = 1E4;
 

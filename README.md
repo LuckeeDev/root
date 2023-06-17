@@ -13,3 +13,7 @@ Questa repo contiene una collezione di esercizi svolti con [ROOT](https://root.c
 -   Altri esercizi
     -   [Somma di una gaussiana e un'uniforme](misc/gauss_uniform)
     -   [Hit or miss](misc/hit_or_miss)
+
+## Istruzioni
+
+Per eseguire le macro presenti nella repository è necessario avere ROOT installato sul proprio sistema. Possono essere eseguite spostandosi nella directory d'interesse, lanciando ROOT ed eseguendo il comando `.x macro.C`.
