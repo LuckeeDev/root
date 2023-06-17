@@ -27,9 +27,11 @@ void macro() {
   TH1F *hEff = new TH1F{*hGen};
   hEff->SetTitle("Observed efficiency");
   hEff->SetName("hEff");
+  // "B" indica la statistica binomiale
   hEff->Divide(hAcc, hGen, 1, 1, "B");
 
   TCanvas *canvas = new TCanvas{"canvas"};
+  // "E" indica le incertezze sui bin
   hEff->Draw("E,SAME");
 
   TCanvas *c = new TCanvas{"c"};
