@@ -2,7 +2,7 @@
 #include "TF1.h"
 #include "TGraphErrors.h"
 
-void exam2() {
+void macro() {
   Double_t x[]{1, 2, 3, 4, 5};
   Double_t y[]{3, 9, 19, 33, 51};
   Double_t y_err[]{0.1, 0.4, 0.9, 1.6, 2.5};

@@ -3,7 +3,7 @@
 #include "TH1D.h"
 #include "TRandom.h"
 
-void exam3() {
+void macro() {
   TH1D *h = new TH1D("h", "Histogram", 1000, -1., 1.);
 
   Double_t x;

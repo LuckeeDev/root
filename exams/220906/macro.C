@@ -11,7 +11,7 @@ Double_t fitFunction(Double_t *x, Double_t *par) {
   return val;
 }
 
-void exam1() {
+void macro() {
   TH1F *h = new TH1F("h", "Histogram", 1000, 0., 10.);
 
   Double_t x;

@@ -9,7 +9,7 @@ Double_t fitFunction(Double_t *x, Double_t *par) {
   return val;
 }
 
-void exam4() {
+void macro() {
   Double_t x[]{-0.75, -0.5, -0.25, 0., 0.25, 0.5, 0.75};
   Double_t y[]{3.1, 0.1, -3.2, -0.1, 2.9, 0.1, -3.2};
   Double_t y_err[]{0.2, 0.1, 0.2, 0.1, 0.2, 0.1, 0.2};
