@@ -17,3 +17,5 @@ Questa repo contiene una collezione di esercizi svolti con [ROOT](https://root.c
 ## Istruzioni
 
 Per eseguire le macro presenti nella repository è necessario avere ROOT installato sul proprio sistema. Possono essere eseguite spostandosi nella directory d'interesse, lanciando ROOT ed eseguendo il comando `.x macro.C`.
+
+Per far funzionare l'intellisense di Visual Studio Code è necessario modificare il file `.vscode/c_cpp_properties.json` e indicare al posto di `~/programs/root/include` la directory in cui si trovano gli header file di ROOT sul proprio sistema.
