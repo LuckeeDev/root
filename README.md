@@ -15,6 +15,8 @@ Questa repo contiene una collezione di esercizi svolti con [ROOT](https://root.c
 -   Altri esercizi
     -   [Somma di una gaussiana e un'uniforme](misc/gauss_uniform)
     -   [Hit or miss](misc/hit_or_miss)
+-   Laboratori
+    -   [Misura di G](labs/gravity)
 
 ## Istruzioni
 
