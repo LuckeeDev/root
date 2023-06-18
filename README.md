@@ -7,6 +7,8 @@ Questa repo contiene una collezione di esercizi svolti con [ROOT](https://root.c
 -   Esami
     -   [15/06/2023](exams/230615)
     -   [06/09/2022](exams/220906)
+    -   [12/07/2022](exams/220712)
+    -   [23/06/2021](exams/210623)
     -   [10/06/2019](exams/190610)
     -   [07/02/2019](exams/190207)
     -   [08/06/2018](exams/180608)

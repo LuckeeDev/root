@@ -1,3 +1,5 @@
+# Consegna
+
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
 1. Si definisce un grafico (classe `TGraphErrors`) atto a rappresentare le 5 coppie di misure (x,y) che dovranno essere opportunamente inserite in forma di arrays:
