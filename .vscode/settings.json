@@ -1,5 +1,7 @@
 {
 	"files.associations": {
-		"*.C": "cpp"
+		".huskyrc": "json",
+		"*.C": "cpp",
+		"ostream": "cpp"
 	}
 }
