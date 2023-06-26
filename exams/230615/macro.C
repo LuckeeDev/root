@@ -35,7 +35,7 @@ void macro() {
   f->SetParameters(1, 1, 1, 1);
 
   TCanvas *canvas1 = new TCanvas("canvas1");
-  sum->Fit(f);
+  sum->Fit(f, "Q");
   sum->Draw();
 
   TCanvas *canvas2 = new TCanvas("canvas2");
