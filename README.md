@@ -4,14 +4,16 @@ Questa repo contiene una collezione di esercizi e macro realizzati con [ROOT](ht
 
 ## Indice
 
--   Esami
-    -   [15/06/2023](exams/230615)
-    -   [06/09/2022](exams/220906)
-    -   [12/07/2022](exams/220712)
-    -   [23/06/2021](exams/210623)
-    -   [10/06/2019](exams/190610)
-    -   [07/02/2019](exams/190207)
-    -   [08/06/2018](exams/180608)
+-   Esami del primo anno
+    -   [15/06/2023](exams/first_year/230615)
+    -   [06/09/2022](exams/first_year/220906)
+    -   [12/07/2022](exams/first_year/220712)
+    -   [23/06/2021](exams/first_year/210623)
+    -   [10/06/2019](exams/first_year/190610)
+    -   [07/02/2019](exams/first_year/190207)
+    -   [08/06/2018](exams/first_year/180608)
+-   Esami del secondo anno
+    -   [15/01/2018](exams/second_year/180115)
 -   Altri esercizi
     -   [Somma di una gaussiana e un'uniforme](misc/gauss_uniform)
     -   [Hit or miss](misc/hit_or_miss)
