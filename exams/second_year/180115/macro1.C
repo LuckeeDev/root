@@ -5,9 +5,7 @@ void macro1() {
   gRandom->SetSeed();
 
   TH1F* histo1 = new TH1F{"histo1", "Histogram 1", 1000, 0., 5.};
-  histo1->Sumw2();
   TH1F* histo2 = new TH1F{"histo2", "Histogram 2", 1000, 0., 5.};
-  histo2->Sumw2();
 
   for (int j{}; j < 1e7; ++j) {
     auto x = gRandom->Exp(1);
@@ -22,6 +20,6 @@ void macro1() {
   TH1F* histo_eff = new TH1F(*histo2);
   histo_eff->SetName("histo_eff");
   histo_eff->SetTitle("Efficiency");
-  histo_eff->Divide(histo2, histo1);
+  histo_eff->Divide(histo2, histo1, 1, 1, "B");
   histo_eff->Draw("E");
 }
