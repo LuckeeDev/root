@@ -14,6 +14,7 @@ Questa repo contiene una collezione di esercizi e macro realizzati con [ROOT](ht
     -   [08/06/2018](exams/first_year/180608)
 -   Esami del secondo anno
     -   [15/01/2018](exams/second_year/180115)
+    -   [26/06/2018](exams/second_year/180626)
 -   Altri esercizi
     -   [Somma di una gaussiana e un'uniforme](misc/gauss_uniform)
     -   [Hit or miss](misc/hit_or_miss)

@@ -1,4 +1,4 @@
-# Consegna
+# 08/06/2018
 
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
