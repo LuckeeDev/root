@@ -1,4 +1,4 @@
-# Consegna
+# Somma di una gaussiana e un'uniforme
 
 Si scriva una macro in cui:
 

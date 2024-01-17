@@ -1,4 +1,4 @@
-# Consegna
+# Criterio hit or miss
 
 Si scriva una macro in cui:
 

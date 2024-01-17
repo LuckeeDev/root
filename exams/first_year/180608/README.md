@@ -10,4 +10,4 @@ Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT 
 
 ## Risposta
 
-È corretto aspettarsi che i bin di underflow e overflow siano diversi da 0. Il motivo risiede nel fatto che l'intervallo $[-1, 1]$ contiene solo il $68.2\\%$ delle occorrenze di una gaussiana con $\mu = 0$ e $\sigma = 1$. Di conseguenza, ci si può aspettare che circa il $15.9\\%$ delle occorrenze cada in underflow e il $15.9\\%$ cada in overflow.
+È corretto aspettarsi che i bin di underflow e overflow siano diversi da 0. Il motivo risiede nel fatto che l'intervallo $[-1, 1]$ contiene solo il 68.2% delle occorrenze di una gaussiana con $\mu = 0$ e $\sigma = 1$. Di conseguenza, ci si può aspettare che circa il 15.9% delle occorrenze cada in underflow e il 15.9% cada in overflow.
