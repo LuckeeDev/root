@@ -15,7 +15,9 @@ void macro2() {
   gRandom->SetSeed();
 
   TH1F* histo1 = new TH1F{"histo1", "Histogram 1", 500, 0, 5};
+  histo1->Sumw2();
   TH1F* histo2 = new TH1F{"histo2", "Histogram 2", 500, 0, 5};
+  histo2->Sumw2();
 
   for (int i{}; i < 1e6; ++i) {
     auto x1 = gRandom->Gaus(2.5, 0.25);
