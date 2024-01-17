@@ -37,5 +37,18 @@ void macro2() {
   sum->SetName("sum");
   sum->SetTitle("Sum");
   sum->Add(gauss, exp);
-  sum->Fit(f);
+  sum->Fit(f, "Q");
+
+  std::cout << "Parameter 0: " << f->GetParameter(0) << " +- "
+            << f->GetParError(0) << '\n'
+            << "Parameter 1: " << f->GetParameter(1) << " +- "
+            << f->GetParError(1) << '\n'
+            << "Parameter 2: " << f->GetParameter(2) << " +- "
+            << f->GetParError(2) << '\n'
+            << "Parameter 3: " << f->GetParameter(3) << " +- "
+            << f->GetParError(3) << '\n'
+            << "Parameter 4: " << f->GetParameter(4) << " +- "
+            << f->GetParError(4) << '\n'
+            << "Reduced chi square: " << f->GetChisquare() / f->GetNDF()
+            << '\n';
 }
