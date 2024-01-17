@@ -1,6 +1,6 @@
-## 15/01/2018 (Efficienza, fit, `FillRandom`)
+## 15/01/2018
 
-#### Quesito 1 (10 punti)
+#### Quesito 1 (Efficienza)
 
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
@@ -10,7 +10,7 @@ Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT 
 4. Si effettua la divisione fra i due istogrammi per ottenere l’efficienza di rivelazione osservata, utilizzando il metodo Divide della classe degli istogrammi e inserendo l’opportuna opzione per la valutazione degli errori secondo la statistica binomiale.
 5. Si disegna l’istogramma dell’ efficienza visualizzando le incertezze sui contenuti dei bin.
 
-#### Quesito 2 (12 punti)
+#### Quesito 2 (Fit)
 
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
@@ -20,7 +20,7 @@ Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT 
 4. Si fa la somma dei due istogrammi, e si effettua il Fit dell’istogramma somma secondo una forma funzionale consistente di una gaussiana (3 parametri: ampiezza,media e deviazione standard) e un polinomio di grado 0 (1 parametro), per un totale di 4 parametri liberi.
 5. Si stampa a schermo il valore dei parametri dopo il fit, con relativo errore, e il $\chi^2$ ridotto.
 
-#### Quesito 3 (6 punti)
+#### Quesito 3 (`FillRandom`)
 
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
