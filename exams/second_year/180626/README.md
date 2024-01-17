@@ -1,4 +1,4 @@
-## 26/06/2018
+## 26/06/2018 (Efficienza, fit, `FillRandom`)
 
 #### Quesito 1 (10 punti)
 
