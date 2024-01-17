@@ -1,4 +1,4 @@
-# 08/06/2018
+## 08/06/2018
 
 Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT in cui:
 
@@ -8,6 +8,6 @@ Si scriva la parte rilevante ed autoconsistente del codice di una macro di ROOT 
     - La media e la RMS dell'istogramma, con i loro errori;
     - Il contenuto dei bin di underflow e overflow (occorrenze fuori range). Dire anche se ci si aspetta che questi ultimi (underflow e overflow) siano diversi da 0, motivando la risposta.
 
-## Risposta
+#### Risposta
 
 È corretto aspettarsi che i bin di underflow e overflow siano diversi da 0. Il motivo risiede nel fatto che l'intervallo $[-1, 1]$ contiene solo il 68.2\% delle occorrenze di una gaussiana con $\mu = 0$ e $\sigma = 1$. Di conseguenza, ci si può aspettare che circa il 15.9\% delle occorrenze cada in underflow e il 15.9\% cada in overflow.

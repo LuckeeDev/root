@@ -1,4 +1,4 @@
-# 06/09/2022
+## 06/09/2022
 
 Si scriva la parte rilevante e autoconsistente del codice di una macro di ROOT in cui:
 

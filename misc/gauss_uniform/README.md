@@ -1,4 +1,4 @@
-# Somma di una gaussiana e un'uniforme
+## Somma di una gaussiana e un'uniforme
 
 Si scriva una macro in cui:
 
