@@ -1,8 +1,8 @@
-## Collezione di macro di [ROOT](https://root.cern)
+# Collezione di macro di [ROOT](https://root.cern)
 
 Questa repo contiene una collezione di esercizi e macro realizzati con [ROOT](https://root.cern), il framework di analisi dati utilizzato durante il corso "Laboratorio di Meccanica e Termodinamica" presso l'Università di Bologna nell'A.A. 2022/2023.
 
-#### Indice
+## Indice
 
 -   Esami del primo anno
     -   [15/06/2023](exams/first_year/230615)
@@ -21,7 +21,7 @@ Questa repo contiene una collezione di esercizi e macro realizzati con [ROOT](ht
 -   Laboratori
     -   [Misura di G](lab/gravity)
 
-#### Istruzioni
+## Istruzioni
 
 Per eseguire le macro presenti nella repository è necessario avere ROOT installato sul proprio sistema. Possono essere eseguite spostandosi nella directory d'interesse, lanciando ROOT ed eseguendo il comando `.x macro.C`.
 
